@@ -3,13 +3,13 @@ import os
 import praw
 import datetime
 
-reddit = praw.Reddit(client_id='lJYZy-3BdLKb04WiLJccVQ',
-                     client_secret='fdLjq8Y9po9JSyNwM-hfUdBk4rNgNg',
-                     user_agent='just messing around')
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     user_agent='')
 
-subreddit_name = 'occult'
+subreddit_name = 'list-palestine'
 subreddit = reddit.subreddit(subreddit_name)
-posts = subreddit.new(limit=99999999999999)
+posts = subreddit.new(limit=10)
 
 data = []
 
