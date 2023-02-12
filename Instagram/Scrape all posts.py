@@ -56,7 +56,7 @@ for i in range(post_count//12 + 1):
 
 SCROLL_PAUSE_TIME = 3
 
-#  Scroll height
+# Scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
 
 while True:
