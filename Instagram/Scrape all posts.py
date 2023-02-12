@@ -49,7 +49,7 @@ if post_count_element:
 else:
     post_count = 0
 
-# Scroll down the page
+# Scroll down the page 
 for i in range(post_count//12 + 1):
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     time.sleep(1)
