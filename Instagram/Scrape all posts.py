@@ -18,7 +18,7 @@ wait = WebDriverWait(driver, 10)
 username = wait.until(EC.presence_of_element_located((By.NAME, "username")))
 password = wait.until(EC.presence_of_element_located((By.NAME, "password")))
 
-# credentials
+#credentials
 username.send_keys("")
 password.send_keys("")
 
