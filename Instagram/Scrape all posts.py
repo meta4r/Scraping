@@ -32,7 +32,7 @@ profile_name = url.split('/')[-2]
 
 driver.get("https://www.instagram.com/{}/".format(profile_name))
 
-#Wait for the page to load
+# Wait for the page to load
 wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
 
 html = driver.page_source
